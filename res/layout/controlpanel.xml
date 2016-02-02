@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+         android:id="@+id/refresh"
+         android:layout_width="62dp"
+         android:layout_height="66dp"
+         android:layout_margin="4dp"
+         android:contentDescription="@string/refresh"
+         android:background="#FF000000"
+         android:src="@drawable/refresh"
+         android:tag="refresh" />
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="62dp"
+        android:layout_height="66dp"
+        android:layout_margin="4dp"
+        android:background="#FF000000"
+        android:contentDescription="@string/exit"
+        android:src="@drawable/exit"
+        android:tag="exit" />
+        
+     <ImageButton
+         android:id="@+id/left"
+         android:layout_width="62dp"
+         android:layout_height="66dp"
+         android:layout_margin="4dp"
+         android:contentDescription="@string/left"
+         android:background="#FF000000"
+         android:src="@drawable/left"
+         android:tag="left" />
+
+     <ImageButton
+         android:id="@+id/right"
+         android:layout_width="62dp"
+         android:layout_height="66dp"
+         android:layout_margin="4dp"
+         android:contentDescription="@string/right"
+         android:background="#FF000000"
+         android:src="@drawable/right"
+         android:tag="right" />
+
+     <ImageButton
+         android:id="@+id/up"
+         android:layout_width="62dp"
+         android:layout_height="66dp"
+         android:layout_margin="4dp"
+         android:contentDescription="@string/up"
+         android:background="#FF000000"
+         android:src="@drawable/up"
+         android:tag="up" />
+
+</LinearLayout>

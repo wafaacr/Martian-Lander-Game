@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FF000000" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/totScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="@string/totalScore"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFFFF"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:text="@string/fuel"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFFFF"   />
+
+    <TextView
+        android:id="@+id/fuelLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:layout_margin="5dp"
+        android:text="@string/fuelLeft"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/spaceCx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:layout_margin="5dp"
+        android:text="@string/spaceCx"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/cx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:layout_margin="5dp"
+        android:text="@string/cx"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/spaceCy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:layout_margin="5dp"
+        android:text="@string/spaceCy"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/cy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:layout_margin="5dp"
+        android:text="@string/cy"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+</LinearLayout>
